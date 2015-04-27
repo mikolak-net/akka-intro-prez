@@ -1,0 +1,15 @@
+= Introduction to Akka presentation
+
+== Description
+
+This repo contains a short (~30 mins, went a bit over the target) presentation aiming to describe the basic concepts of the http://akka.io[Akka] actor core.
+
+== Usage
+
+To presentation is contained in `prez.adoc`, an Asciidoc file intended to be run over the http://asciidoc.org/slidy.html[slidy backend], like so:
+
+     asciidoc --backend=slidy prez.adoc
+     
+and view `prez.html`. There are two references to the apps in the `demo` projects in the slides, should be pretty straightforward to figure out.
+
+You can also view the raw text of `prez.adoc`, which contains notes for the presentation as comments.
